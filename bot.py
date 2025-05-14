@@ -2,7 +2,7 @@ import discord
 import requests
 import json
 import os
-
+import asyncio
 
 
 TOKEN = os.getenv("DISCORD_TOKEN")
